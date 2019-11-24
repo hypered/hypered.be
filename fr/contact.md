@@ -3,8 +3,8 @@ title: Pour toute demande, contactez-nous par email
 ---
 
 
-- Notre adresse:        [hello@hypered.io](mailto:hello@hypered.io)
-- Pour une formation:   [hello@hypered.io?subject=trainings](mailto:hello@hypered.io?subject=trainings)
+- Notre adresse:        [hello@hypered.be](mailto:hello@hypered.be)
+- Pour une formation:   [hello@hypered.be?subject=trainings](mailto:hello@hypered.be?subject=trainings)
 
 
 Hypered SPRL est enregistrée en Belgique:

@@ -2,6 +2,8 @@
 nav:
 - name: Hypered
   href: "./"
+- name: formations
+  href: "formations.html"
 - name: contact
   href: "contact.html"
 footer: © Hypered SPRL, 2019.
