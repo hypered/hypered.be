@@ -10,6 +10,7 @@ for i in \
   formations \
   contact \
   git \
+  docker \
   ; do \
   echo Rendering $i.md...
 nix-shell -p pkgs.haskellPackages.pandoc --run "pandoc \

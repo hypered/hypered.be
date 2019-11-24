@@ -1,0 +1,120 @@
+<!DOCTYPE HTML>
+<html><head><meta charset="utf-8"><title>Docker</title><meta name="viewport" content="width=device-width, initial-scale=1.0"><style>@import url(/static/css/inter.css);@import url(/static/css/tachyons.min.v4.11.1.css);@import url(/static/css/style.css);@import url(/static/css/styles.css);</style></head><body class="inter"><div class="flex flex-column justify-between min-height-vh-100 mw8 center pa4 lh-copy"><div><header><nav class="flex justify-between align-items-center lh-copy mb4 pv3"><div><a class="link mr3 black hover-blue" href="./">Hypered</a><a class="link mr3 black hover-blue" href="formations.html">formations</a><a class="link mr3 black hover-blue" href="contact.html">contact</a></div></nav></header><main><article class="mw7"><div class="mb4"><h1 class="f1 lh-title mv2 tracked-tight">Docker</h1></div><h2 id="formation-docker-gestion-de-conteneurs-dapplications" class="f2 lh-title mv2 tracked-tight">Formation Docker – Gestion de conteneurs d’applications</h2>
+<h3 id="description">Description</h3>
+<p>Docker est un ensemble d’outils visant à créer, héberger, et exécuter des applications dans des conteneurs. Il s’agit à la fois d’une alternative populaire à la virtualisation et d’une façon de distribuer ses applications. Ensemble ils simplifient le développement, les tests d’intégration et la production.</p>
+<p>La formation “Docker - Gestion de conteneurs d’applications” est destinée aux développeurs et aux opérations. Elle apprend aux participants à créer des environnements isolés à partir de conteneurs définis par la communauté ou vos équipes, sur une seule ou plusieurs machines hôtes.</p>
+<p>En plus des connaissances et mises en pratique technique, cette formation permet de mieux comprendre le paysage informatique moderne et sert de base solide pour aborder d’autres sujets, tel Kubernetes, ou renforcer une démarche DevOps.</p>
+<h3 id="objectifs">Objectifs</h3>
+<p>A l’issue de cette formation, les participants seront capables de:</p>
+<ul>
+<li>Comprendre le positionnement de Docker et des conteneurs dans le paysage informatique.</li>
+<li>Utiliser l’interface en ligne de commande de Docker.</li>
+<li>Créer des images Docker pour leurs propres applications.</li>
+<li>Déployer et administrer des conteneurs sur une ou plusieurs machines et d’établir une communication entre eux.</li>
+</ul>
+<p>Les participants auront également la possibilité de continuer à exploiter après la formation la définition de l’image de machine virtuelle utilisée durant la formation, ainsi que scripts, Dockerfiles et fichiers docker-compose.yml.</p>
+<h3 id="format-de-la-formation">Format de la formation</h3>
+<p>La formation est donnée sous forme d’exposé magistral interactif accompagné d’exercices pratiques dans un environnement Linux. Les participants peuvent au choix utiliser leur propre ordinateur portable (voir ci-dessous pour les pré-requis) ou une machine prêtée pour l’occasion par le formateur.</p>
+<p>La formation est disponible en français ou en anglais.</p>
+<h3 id="pré-requis">Pré-requis</h3>
+<p>Pour suivre efficacement la formation, il est demandé de posséder une aptitude de base à l’administration en ligne de commande d’un système Linux.</p>
+<p>Si vous désirez utiliser votre propre ordinateur portable lors de la formation, il vous est demandé d’installer la version la plus récente de VirtualBox et Vagrant. Si vous utilisez Windows comme système d’exploitation, installez également la version “Full” de cmder. Enfin, assurez-vous que l’accélération matérielle de la virtualisation est activée au niveau du BIOS de votre ordinateur.</p>
+<h3 id="contenu">Contenu</h3>
+<h4 id="introduction">Introduction</h4>
+<p>L’introduction permet de rapidement prendre connaissance de ce que sont les conteneurs mais aussi de les situer dans un univers technologique toujours plus riche.</p>
+<ul>
+<li>Les conteneurs Linux</li>
+<li>Par rapport aux machines virtuelles (avantages, inconvénients, …)</li>
+<li>Les différentes solutions de conteneurs (OpenVZ, Docker, LXC, …)</li>
+<li>Au delà des conteneurs: Kubernetes, Mesos, …</li>
+<li>Docker, Inc., la société mère</li>
+<li>Tour d’horizon: Docker Toolbox, CoreOS, Rancher, …</li>
+</ul>
+<h4 id="loutil-docker">L’outil Docker</h4>
+<p>Cette partie aborde Docker, l’outil central, mais aussi introduit le reste de la famille Docker.</p>
+<ul>
+<li>Les différentes incarnations de Docker (Windows containers, Docker for Mac, …)</li>
+<li>L’architecture de Docker (dockerd, docker, images, …)</li>
+<li>Installation de Docker (Linux, Windows, …)</li>
+<li>Les autres outils de la famille Docker (docker-compose, docker-machine, docker-stack, …)</li>
+<li>Comparaison de Docker Community Edition et Enterprise Edition.</li>
+</ul>
+<p><strong>Atelier pratique:</strong> installation de Docker CE sous Linux et “Hello, world” en conteneur.</p>
+<h4 id="les-bases-de-docker">Les bases de Docker</h4>
+<p>Cette partie utilise quelques commandes de base offertes par Docker pour récupérer des images Docker officielles et les exécuter.</p>
+<ul>
+<li>Le registre d’images Docker</li>
+<li>La récupération d’une image</li>
+<li>L’exécution d’une image (création d’un conteneur)</li>
+<li>Description et gestion des images (layers, …)</li>
+<li>Description des conteneurs</li>
+</ul>
+<p><strong>Atelier pratique:</strong> premières manipulations d’images et conteneurs avec l’outil en ligne de commande <code>docker</code>.</p>
+<h4 id="plus-de-commandes">Plus de commandes</h4>
+<p>Cette partie continue de couvrir les commandes offertes par Docker pour manipuler images et conteneurs.</p>
+<p>Cette partie continue d’exposer la richesse offerte par Docker pour exécuter des conteneurs.</p>
+<ul>
+<li>Différentes formes d’exécution (interactive, mode détaché)</li>
+<li>Persistence des données d’un conteneur</li>
+<li>Partage de données entre conteneurs</li>
+<li>Exposition de ports réseaux</li>
+</ul>
+<p><strong>Atelier pratique:</strong> exécution de concert de trois conteneurs laissés au choix des participants:</p>
+<ul>
+<li>Nginx, PHP, MySQL</li>
+<li>Nginx, Python, PostgreSQL</li>
+<li>Nginx, Ruby, PostgreSQL</li>
+<li>Nginx, C# (.Net Core), Microsoft SQL Server</li>
+</ul>
+<h4 id="elaboration-dimages">Elaboration d’images</h4>
+<p>Cette partie montre comment créer ses propres images Docker.</p>
+<ul>
+<li>Création d’image “à la main”</li>
+<li>Utilisation d’un Dockerfile</li>
+<li>Utilisation de la directive <code>FROM scratch</code></li>
+<li>Les commandes <code>docker history</code>, <code>docker save</code>, …</li>
+<li>Optimization et bonnes pratiques</li>
+</ul>
+<p><strong>Atelier pratique:</strong> création d’images Docker et exploration de leur contenu.</p>
+<h3 id="configuration-multi-conteneurs-multi-noeuds">Configuration multi-conteneurs, multi-noeuds</h3>
+<p>Cette partie continue sur le thème du déploiement de plusieurs conteneurs, mais cette fois avec docker-compose et le mode Swarm.</p>
+<p><strong>Atelier pratique:</strong></p>
+<h3 id="gérer-la-production">Gérer la production</h3>
+<p>Cette partie aborde les aspects de gestion de conteneurs Docker permettant leur exploitation en production.</p>
+<ul>
+<li>Démarrer les conteneurs lorsque la machine boot</li>
+<li>Monitoring</li>
+<li>Limitation des ressources</li>
+<li>Gestion des logs</li>
+</ul>
+<p><strong>Atelier pratique:</strong> configuration de dockerd et autres options d’exécution de <code>docker run</code>.</p>
+<h3 id="machine-virtuelle-optionnel">Machine virtuelle (optionnel)</h3>
+<p>Cette partie optionnelle couvre la création d’une machine virtuelle avec Packer, Vagrant et VirtualBox. Cette technique remplace avantageusement des solutions comme Docker Desktop.</p>
+<ul>
+<li>Création d’une configuration pour Packer</li>
+<li>Construction d’une image pour VirtualBox</li>
+<li>Création d’une configuration pour Vagrant</li>
+<li>Créer et gérer une machine virtuelle avec Vagrant</li>
+<li>Configuration Vagrant multi-machines</li>
+</ul>
+<p><strong>Atelier pratique:</strong> création d’une image de machine virtuelle avec Packer et exécution de cette image avec Vagrant et VirtualBox.</p>
+<h3 id="discussion-optionnel">Discussion (optionnel)</h3>
+<p>Cette partie donne des pistes de réflexion sur le contenu vu durant la formation, invitant les partiçipants à garder un regard critique sur les technologies apprises.</p>
+<ul>
+<li>Docker comme outil de provisioning: provisioner Docker CE sur une machine, pour ensuite déployer une application, ou bien provisioner directement une application ?</li>
+<li>Quels autres outils pour provisioner une machine ?</li>
+<li>Docker comme format de packaging: pourquoi utiliser des .deb ou .apk dans un Dockerfile ?</li>
+<li>Quels autres formats de packaging ?</li>
+</ul>
+<h3 id="non-couvert">Non-couvert</h3>
+<p>La formation, bien que déjà très fournie, ne peut tout couvrir. Néanmoins pour satisfaire les plus curieux, nous listons ici quelques sujets pertinents sur le thème des conteneurs.</p>
+<ul>
+<li>Zones Illumos</li>
+<li>Jails FreeBSD</li>
+<li>Unikernels</li>
+<li>Kata containers</li>
+<li>Firecracker</li>
+<li>Reverse proxy, load balancing, service mesh, …</li>
+<li>CRIU</li>
+<li>…</li>
+</ul></article></main></div><footer class="pv4"><p class="inline-flex bt b--black-50 pt4 lh-copy">© Hypered SPRL, 2019.</p></footer></div></body></html>
