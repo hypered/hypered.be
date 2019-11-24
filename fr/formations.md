@@ -33,6 +33,8 @@ preuves notamment sur le noyau Linux pour lequel il avait initiallement été
 partageant les mêmes bases de code. Une utilisation correcte de Git permet de
 raccourcir les cycles de développement.
 
+[Voir la formation](git.html)
+
 
 ## Docker - Gestion de conteneurs d'application
 
