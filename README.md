@@ -10,4 +10,4 @@ The `docs/` directory is served through GitHub Pages.
 ## Building
 
 The build script `build.sh` relies on the [Hypered design
-system](https://github.com/hypered/deisng-system).
+system](https://github.com/hypered/design-system).
