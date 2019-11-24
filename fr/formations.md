@@ -25,7 +25,7 @@ Elles sont disponibles en français ou en anglais.
 
 # Formations disponibles
 
-## Git
+## Git - Collaborer sur du code
 
 Git est un outil moderne de gestion de versions de code source qui a fait ses
 preuves notamment sur le noyau Linux pour lequel il avait initiallement été
@@ -43,6 +43,8 @@ applications dans des conteneurs. Il s'agit à la fois d'une alternative
 populaire à la virtualisation et d'une façon de distribuer ses applications.
 Ensemble ils simplifient le développement, les tests d'intégration et la
 production.
+
+[Voir la formation](docker.html)
 
 
 # Autres formations
