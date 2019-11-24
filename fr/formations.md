@@ -5,8 +5,8 @@ subtitle: Pour une évolution rapide d'équipes de développement efficaces
 
 
 En plus de fournir connaissance et mise en pratique concrète, nos formations
-permetten de mieux comprendre le paysage informatique moderne et fournissent de
-solides bases pour évoluer toujours plus loin ou renforcer la maîtrise de
+permettent de mieux comprendre le paysage informatique moderne et fournissent
+de solides bases pour évoluer toujours plus loin ou renforcer la maîtrise de
 projets logiciels.
 
 Les technologies sont enseignées sous forme d'exposés magistraux interactifs
@@ -15,7 +15,7 @@ peuvent au choix amener leur propre ordinateur portable ou se voir prêter une
 machine pour la durée de la formation.
 
 Nos formations sont modernes et incluent un contenu actualisé. Elles invitent
-les partiçipants à garder un regard critique sur les technologies apprises.
+les participants à garder un regard critique sur les technologies apprises.
 Elles sont disponibles en français ou en anglais.
 
 > A travers nos formations, nous cherchons à transmettre non seulement une
