@@ -50,6 +50,8 @@ pré-requis) ou une machine prêtée pour l'occasion par le formateur.
 
 La formation est disponible en français ou en anglais.
 
+La formation est donnée en groupe de maximum 8 personnes.
+
 
 ### Pré-requis
 
