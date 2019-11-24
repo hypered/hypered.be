@@ -7,6 +7,7 @@ mkdir -p _site/fr/
 # Run Pandoc on source files using the design-system template.
 for i in \
   index \
+  contact \
   ; do \
   echo Rendering $i.md...
 nix-shell -p pkgs.haskellPackages.pandoc --run "pandoc \
