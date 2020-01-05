@@ -4,7 +4,8 @@ This is the repository for the [hypered.be](https://hypered.be) site.
 
 The current content is in French.
 
-The `docs/` directory is served through GitHub Pages.
+It is served through a Digital Ocean machine built using the [Nix
+Notes](https://github.com/noteed/nix-notes) instructions.
 
 
 ## Building
