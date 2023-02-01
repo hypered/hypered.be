@@ -4,12 +4,12 @@
 let
   pkgs = import nixpkgs {};
 
-  design-system-version = "e1fe8d82349f4a084dee751a9c4bc5ef81ee68bb";
+  design-system-version = "4d55e94cf514d7e6bd65d6aae537c1d0a798894c";
   design-system = pkgs.fetchFromGitHub {
     owner = "hypered";
-    repo = "design-system";
+    repo = "design";
     rev = design-system-version;
-    sha256 = "1lqsx2zq2ymib9x4b0xncgx4wjw1mkphr4zda84fj4lbx445rdii";
+    sha256 = "124szwc5mj12pbn8vc9z073bhwhyjgji2xc86jdafpi24d1dsqr4";
   };
   inherit (import design-system {}) template lua-filter replace-md-links;
 
@@ -20,6 +20,7 @@ let
       --standalone \
       --template ${template} \
       -M prefix="" \
+      -M font="ibm-plex" \
       --lua-filter ${lua-filter} \
       --output $out \
       ${fr/metadata.yml} \

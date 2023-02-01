@@ -11,4 +11,4 @@ Notes](https://github.com/noteed/nix-notes) instructions.
 ## Building
 
 The build script `build.sh` relies on the [Hypered design
-system](https://github.com/hypered/design-system).
+system](https://github.com/hypered/design).
