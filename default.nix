@@ -11,7 +11,7 @@ let
     rev = design-system-version;
     sha256 = "124szwc5mj12pbn8vc9z073bhwhyjgji2xc86jdafpi24d1dsqr4";
   };
-  inherit (import design-system {}) template lua-filter replace-md-links;
+  inherit (import design-system {}) lua-filter replace-md-links static template;
 
   to-html = src: pkgs.runCommand "html" {} ''
     ${pkgs.pandoc}/bin/pandoc \
@@ -49,6 +49,14 @@ in rec
     cp ${fr.html.contact} $out/fr/contact.html
     cp ${fr.html.git} $out/fr/git.html
     cp ${fr.html.docker} $out/fr/docker.html
+
     ${pkgs.bash}/bin/bash ${replace-md-links} $out
+  '';
+
+  # all + static, to serve locally with scripts/serve.sh
+  html.all-with-static = pkgs.runCommand "all-with-static" {} ''
+    mkdir $out
+    cp -r ${html.all}/* $out/
+    ln -s ${static} $out/static
   '';
 }
