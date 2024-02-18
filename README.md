@@ -7,11 +7,21 @@ The current content is in French.
 It is served through a Digital Ocean machine built using the [Nix
 Notes](https://github.com/noteed/nix-notes) instructions.
 
+Note: the trainings (index, docker, git) pages are not linked from the main
+index.
+
 
 ## Building locally
 
 The build script `scripts/build.sh` relies on the [Hypered design
 system](https://github.com/hypered/design).
+
+
+## Serving locally
+
+```
+$ scripts/serve.sh
+```
 
 
 ## Deploying

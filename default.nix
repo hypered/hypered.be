@@ -1,27 +1,21 @@
-{ nixpkgs ? <nixpkgs>
-}:
-
 let
+  sources = import ./nix/sources.nix;
+  overlays = import ./nix/overlays.nix;
+  nixpkgs = import sources.nixpkgs { inherit overlays; };
+
   pkgs = import nixpkgs {};
 
-  design-system-version = "4d55e94cf514d7e6bd65d6aae537c1d0a798894c";
-  design-system = pkgs.fetchFromGitHub {
-    owner = "hypered";
-    repo = "design";
-    rev = design-system-version;
-    sha256 = "124szwc5mj12pbn8vc9z073bhwhyjgji2xc86jdafpi24d1dsqr4";
-  };
-  inherit (import design-system {}) lua-filter replace-md-links static template;
+  inherit (import sources.hypered-design) replace-md-links static;
 
-  to-html = src: pkgs.runCommand "html" {} ''
-    ${pkgs.pandoc}/bin/pandoc \
+  template = ./template.html;
+
+  to-html = src: nixpkgs.runCommand "html" {} ''
+    ${nixpkgs.pandoc}/bin/pandoc \
       --from markdown \
       --to html \
       --standalone \
       --template ${template} \
       -M prefix="" \
-      -M font="ibm-plex" \
-      --lua-filter ${lua-filter} \
       --output $out \
       ${fr/metadata.yml} \
       ${src}
@@ -41,7 +35,7 @@ in rec
   fr.html.git = to-html fr.md.git;
   fr.html.docker = to-html fr.md.docker;
 
-  html.all = pkgs.runCommand "all" {} ''
+  html.all = nixpkgs.runCommand "all" {} ''
     mkdir -p $out/fr
     echo "hypered.be" > $out/index.html
     cp ${fr.html.index} $out/fr/index.html
@@ -50,11 +44,11 @@ in rec
     cp ${fr.html.git} $out/fr/git.html
     cp ${fr.html.docker} $out/fr/docker.html
 
-    ${pkgs.bash}/bin/bash ${replace-md-links} $out
+    ${nixpkgs.bash}/bin/bash ${replace-md-links} $out
   '';
 
   # all + static, to serve locally with scripts/serve.sh
-  html.all-with-static = pkgs.runCommand "all-with-static" {} ''
+  html.all-with-static = nixpkgs.runCommand "all-with-static" {} ''
     mkdir $out
     cp -r ${html.all}/* $out/
     ln -s ${static} $out/static
