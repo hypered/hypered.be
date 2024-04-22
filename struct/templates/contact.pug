@@ -1,0 +1,83 @@
+include ../../../design/struct/templates/includes/mixins/icons.pug
+doctype html
+html(dir="ltr", lang="fr")
+    head
+        meta(charset="utf-8")
+        meta(name="viewport" content="width=device-width, initial-scale=1")
+        link(rel="stylesheet", href="/static/css/struct.css")
+        block Hypered SRL
+    body.u-container-vertical
+        header
+            .u-container
+                .u-bar
+                    .u-bar__left
+                        style.
+                          .a-logo { color: black; text-decoration: none; }
+                        a.a-logo(href="/")
+                            div
+                                span.logo hypered
+                    .u-bar__right
+                        ul
+                            li
+                                .menu-item
+                                    a(href="/#projects").menu-link Projets
+                            li
+                                .menu-item
+                                    a(href="/#services").menu-link Services
+                            li
+                                .menu-item
+                                    a(href="/contact.html").menu-link Contact
+
+        main
+            .u-container.flow-all.u-flow-c-4
+                .switcher
+                    .flow
+                        p Hypered est une société de consultance belge, spécialisée dans le développement informatique et le conseil. Vous pouvez nous contacter par email à l'adresse <a href="mailto:hello@hypered.be">hello@hypered.be</a>.
+
+                    .c-content.flow
+                        // empty
+
+                .c-content.flow-all.u-flow-c-4
+                .switcher
+                    .c-content.flow
+                        p Hypered SRL est enregistrée en Belgique:
+                        p
+                            | VAT:  BE652 849 986<br>
+                            | IBAN: BE12 3631 6046 2692<br>
+                            | BIC:  BBRUBEBB
+                    .c-content.flow
+                        p Notre adresse officielle est:
+                        p
+                            | Hypered SRL<br>
+                            | Rue Hugo d'Oignies 10<br>
+                            | 5100 Jambes (Namur)<br>
+                            | Belgique
+                    .c-content.flow
+                        // empty
+
+        footer
+            .u-container
+                hr
+                .switcher
+                    .c-content.flow
+                        h4 Hypered
+                        ul.no-disc
+                            li
+                                a(href="/#about") A propos
+                            li
+                                a(href="/#projects") Projets
+                            li
+                                a(href="/#services") Services
+                            li
+                                a(href="https://github.com/hypered") Open source
+                            li
+                                a(href="/contact.html") Contact
+                    .c-content.flow
+                        // empty
+                    .c-content.flow
+                        // empty
+
+                .flow.u-flow-c-4
+                    img(src="/static/images/belgium-flag.svg" alt="The flag of Belgium" width="15px" height="13px")
+                    span &nbsp; &nbsp; &nbsp; © Hypered SRL, 2019-2024.&nbsp; &nbsp; &nbsp;
+                    span Get it done. Get it Hypered.

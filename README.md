@@ -23,6 +23,13 @@ system](https://github.com/hypered/design).
 $ scripts/serve.sh
 ```
 
+For the Pug-based files:
+
+```
+$ cd struct/
+$ ./serve.sh
+```
+
 
 ## Deploying
 
