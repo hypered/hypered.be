@@ -45,12 +45,19 @@ in rec
     cp ${fr.html.docker} $out/fr/docker.html
 
     ${nixpkgs.bash}/bin/bash ${replace-md-links} $out
+
+    # Temporary. These pages are manually generated (and committed)
+    # from the struct/ directory.
+    cp ${./hard-coded}/index.html $out/
+    cp ${./hard-coded}/contact.html $out/
   '';
 
   # all + static, to serve locally with scripts/serve.sh
   html.all-with-static = nixpkgs.runCommand "all-with-static" {} ''
     mkdir $out
     cp -r ${html.all}/* $out/
-    ln -s ${static} $out/static
+    cp -r ${static} $out/static
+    chmod -R +w $out/static/images/
+    cp ${./static/images}/* $out/static/images/
   '';
 }
