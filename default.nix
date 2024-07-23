@@ -50,6 +50,7 @@ in rec
     # from the struct/ directory.
     cp ${./hard-coded}/index.html $out/
     cp ${./hard-coded}/contact.html $out/
+    cp -r ${./hard-coded}/en $out/
   '';
 
   # all + static, to serve locally with scripts/serve.sh

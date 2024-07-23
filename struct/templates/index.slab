@@ -19,6 +19,12 @@ html(dir="ltr", lang="fr")
                     .u-bar__right
                         ul
                             li
+                                .menu-item(tabindex="-1")
+                                    i.menu-mask(tabindex="-1")
+                                    a.menu-dropdown FR
+                                    .menu-dropdown-content
+                                        a(href="/en/") EN
+                            li
                                 .menu-item
                                     a(href="/#projects").menu-link Projets
                             li

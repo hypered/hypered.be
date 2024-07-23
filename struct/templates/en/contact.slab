@@ -1,6 +1,6 @@
-include ../../../design/struct/templates/includes/icons.slab
+include ../../../../design/struct/templates/includes/icons.slab
 doctype html
-html(dir="ltr", lang="fr")
+html(dir="ltr", lang="en")
     head
         meta(charset="utf-8")
         meta(name="viewport", content="width=device-width, initial-scale=1")
@@ -21,12 +21,12 @@ html(dir="ltr", lang="fr")
                             li
                                 .menu-item(tabindex="-1")
                                     i.menu-mask(tabindex="-1")
-                                    a.menu-dropdown FR
+                                    a.menu-dropdown EN
                                     .menu-dropdown-content
-                                        a(href="/en/contact.html") EN
+                                        a(href="/contact.html") FR
                             li
                                 .menu-item
-                                    a(href="/#projects").menu-link Projets
+                                    a(href="/#projects").menu-link Projects
                             li
                                 .menu-item
                                     a(href="/#services").menu-link Services
@@ -38,7 +38,7 @@ html(dir="ltr", lang="fr")
             .u-container.flow-all.u-flow-c-4
                 .switcher
                     .flow
-                        p Hypered est une société de consultance belge, spécialisée dans le développement informatique et le conseil. Vous pouvez nous contacter par email à l'adresse <a href="mailto:hello@hypered.be">hello@hypered.be</a>.
+                        p Hypered is a Belgian consulting company, specialized in software development and consulting. You can contact us via email at <a href="mailto:hello@hypered.be">hello@hypered.be</a>.
 
                     .c-content.flow
                         -- empty
@@ -46,18 +46,18 @@ html(dir="ltr", lang="fr")
                 .c-content.flow-all.u-flow-c-4
                 .switcher
                     .c-content.flow
-                        p Hypered SRL est enregistrée en Belgique:
+                        p Hypered SRL is registered in Belgium:
                         p
-                            | TVA:  BE652 849 986<br>
+                            | VAT:  BE652 849 986<br>
                             | IBAN: BE12 3631 6046 2692<br>
                             | BIC:  BBRUBEBB
                     .c-content.flow
-                        p Notre adresse officielle est:
+                        p Our official address is:
                         p
                             | Hypered SRL<br>
                             | Rue Hugo d'Oignies 10<br>
                             | 5100 Jambes (Namur)<br>
-                            | Belgique
+                            | Belgium
                     .c-content.flow
                         -- empty
 
@@ -69,9 +69,9 @@ html(dir="ltr", lang="fr")
                         h4 Hypered
                         ul.no-disc
                             li
-                                a(href="/#about") A propos
+                                a(href="/#about") About
                             li
-                                a(href="/#projects") Projets
+                                a(href="/#projects") Projects
                             li
                                 a(href="/#services") Services
                             li
