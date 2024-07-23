@@ -1,11 +1,11 @@
-include ../../../design/struct/templates/includes/mixins/icons.pug
+include ../../../design/struct/templates/includes/icons.slab
 doctype html
 html(dir="ltr", lang="fr")
     head
         meta(charset="utf-8")
-        meta(name="viewport" content="width=device-width, initial-scale=1")
+        meta(name="viewport", content="width=device-width, initial-scale=1")
         link(rel="stylesheet", href="/static/css/struct.css")
-        block Hypered SRL
+        title Hypered SRL
     body.u-container-vertical
         header
             .u-container
@@ -49,7 +49,7 @@ html(dir="ltr", lang="fr")
 
                         a.c-button.c-button--primary(href='/contact.html')
                             span Nous contacter
-                            +arrow-right
+                            arrow-right
 
 
 
@@ -59,30 +59,30 @@ html(dir="ltr", lang="fr")
 
                 .c-content.flow-all.u-flow-c-4
                     .switcher.u-flow-c-4
-                        img.adapt.blog-post-details(src="/static/images/curiosity-screenshot-2560x1440.png" alt="The homepage of Curiosity, a prototype for Smart Coop")
+                        img.adapt.blog-post-details(src="/static/images/curiosity-screenshot-2560x1440.png", alt="The homepage of Curiosity, a prototype for Smart Coop")
                         .c-content.flow
                             p <b>Curiosity</b> est un prototype fonctionnel et open source développé pour la coopérative Smart. Ce projet a été conçu pour faciliter l'élaboration, la discussion et la communication des exigences d'une future plateforme destinée aux membres de Smart.
                             p Ce projet est en constante évolution et illustre clairement la philosophie de développement d'Hypered. Il met en avant des pratiques telles que la documentation vivante, les scénarios de tests, l'analyse détaillée de l'état du système, la couverture de code, la création simplifiée d'environnements de développement ou de tests, ainsi que l'intégration et le déploiement continus.
                             a.c-button.c-button--secondary(href='https://cty-1.hypered.systems')
                                 span Visiter Curiosity
-                                +arrow-right
+                                arrow-right
 
                     .switcher.u-flow-c-4
-                        img.adapt.blog-post-details(src="/static/images/refli-screenshot-2560x1440.png" alt="The homepage of Refli, an online platform for payroll")
+                        img.adapt.blog-post-details(src="/static/images/refli-screenshot-2560x1440.png", alt="The homepage of Refli, an online platform for payroll")
                         .c-content.flow
                             p <b>Refli</b> est une plateforme développée par Hypered, conçue pour simplifier et optimiser le domaine du payroll. Ce projet marque l'entrée d'Hypered dans le marché des produits SaaS (Software-as-a-Service). Il nous permet de transcender une approche souvent passive de la veille technologique, en intégrant activement des technologies avancées telles que le langage de programmation Haskell, le moteur de production Nix ou encore l'IA.
                             p Malgré les défis posés par un système de production déployé dans le cloud, Refli conserve l'approche de prototypage rapide adoptée par Curiosity. Par exemple, elle permet de créer et d'initialiser dynamiquement une base de données relationnelle pour chaque scénario de test.
                             a.c-button.c-button--secondary(href='https://refli.be')
                                 span Visiter Refli
-                                +arrow-right
+                                arrow-right
 
                     .switcher.u-flow-c-4
-                        img.adapt.blog-post-details(src="/static/images/lex-iterata-screenshot-2560x1440.png" alt="The homepage of Lex Iterata, a new rendition of the Belgian legislative texts")
+                        img.adapt.blog-post-details(src="/static/images/lex-iterata-screenshot-2560x1440.png", alt="The homepage of Lex Iterata, a new rendition of the Belgian legislative texts")
                         .c-content.flow
                             p <b>Lex Iterata</b> est un nouveau site web qui transforme la présentation des textes consolidés du Moniteur Belge. Grâce à cette initiative, les textes sont désormais plus clairs et plus faciles à lire, particulièrement sur les appareils mobiles. Pour en savoir plus sur Lex Iterata, nous vous invitons à consulter <a href="https://refli.be/fr/blog/2024/01/19/introducing-refli">notre article de blog</a> dédié.
                             a.c-button.c-button--secondary(href='https://refli.be/fr/lex')
                                 span Visiter Lex Iterata
-                                +arrow-right
+                                arrow-right
 
                 .c-content.flow-all.u-flow-c-4
                     h2(id="services") Services
@@ -108,7 +108,7 @@ html(dir="ltr", lang="fr")
 
                     a.c-button.c-button--primary(href='/contact.html')
                         span Nous contacter
-                        +arrow-right
+                        arrow-right
 
         footer
             .u-container
@@ -128,11 +128,11 @@ html(dir="ltr", lang="fr")
                             li
                                 a(href="/contact.html") Contact
                     .c-content.flow
-                        // empty
+                        -- empty
                     .c-content.flow
-                        // empty
+                        -- empty
 
                 .flow.u-flow-c-4
-                    img(src="/static/images/belgium-flag.svg" alt="The flag of Belgium" width="15px" height="13px")
+                    img(src="/static/images/belgium-flag.svg", alt="The flag of Belgium", width="15px", height="13px")
                     span &nbsp; &nbsp; &nbsp; © Hypered SRL, 2019-2024.&nbsp; &nbsp; &nbsp;
                     span Get it done. Get it Hypered.

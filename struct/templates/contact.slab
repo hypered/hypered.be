@@ -1,11 +1,11 @@
-include ../../../design/struct/templates/includes/mixins/icons.pug
+include ../../../design/struct/templates/includes/icons.slab
 doctype html
 html(dir="ltr", lang="fr")
     head
         meta(charset="utf-8")
-        meta(name="viewport" content="width=device-width, initial-scale=1")
+        meta(name="viewport", content="width=device-width, initial-scale=1")
         link(rel="stylesheet", href="/static/css/struct.css")
-        block Hypered SRL
+        title Hypered SRL
     body.u-container-vertical
         header
             .u-container
@@ -35,7 +35,7 @@ html(dir="ltr", lang="fr")
                         p Hypered est une société de consultance belge, spécialisée dans le développement informatique et le conseil. Vous pouvez nous contacter par email à l'adresse <a href="mailto:hello@hypered.be">hello@hypered.be</a>.
 
                     .c-content.flow
-                        // empty
+                        -- empty
 
                 .c-content.flow-all.u-flow-c-4
                 .switcher
@@ -53,7 +53,7 @@ html(dir="ltr", lang="fr")
                             | 5100 Jambes (Namur)<br>
                             | Belgique
                     .c-content.flow
-                        // empty
+                        -- empty
 
         footer
             .u-container
@@ -73,11 +73,11 @@ html(dir="ltr", lang="fr")
                             li
                                 a(href="/contact.html") Contact
                     .c-content.flow
-                        // empty
+                        -- empty
                     .c-content.flow
-                        // empty
+                        -- empty
 
                 .flow.u-flow-c-4
-                    img(src="/static/images/belgium-flag.svg" alt="The flag of Belgium" width="15px" height="13px")
+                    img(src="/static/images/belgium-flag.svg", alt="The flag of Belgium", width="15px", height="13px")
                     span &nbsp; &nbsp; &nbsp; © Hypered SRL, 2019-2024.&nbsp; &nbsp; &nbsp;
                     span Get it done. Get it Hypered.
