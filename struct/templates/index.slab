@@ -109,8 +109,11 @@ html(dir="ltr", lang="fr")
                             h2(id="open-source") Open source
                             p Chez Hypered, nous croyons fermement que l'open source a eu un impact formidable sur l'industrie informatique. En utilisant des outils open source et en contribuant à ces projets, nous avons bénéficié d'une culture d'innovation et d'apprentissage continu. Cette approche nous a permis de rester à la pointe des pratiques de développement modernes. En intégrant des solutions open source dans nos projets, nous offrons à nos clients des outils robustes, flexibles et pérennes. Découvrez nos projets publics sur <a href="https://github.com/hypered">GitHub</a>.
                         .c-content.flow
-                            h2(id="open-source") Numtide
+                            h2(id="numtide") Numtide
                             p Nous travaillons également sur des projets ambitieux avec l'équipe de <a href="https://numtide.com/contact/">Numtide</a>, composée de freelances expérimentés et aux compétences variées.
+                            p
+                              a(href="https://numtide.com/contact/")
+                                img(src="/static/images/numtide-logo.svg", alt="Le logo Numtide", width="113.9979px", height="29.049px")
 
                 .c-content.flow-all.u-flow-c-4.limit-42em
                     h2(id="about") A propos
