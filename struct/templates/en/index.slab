@@ -103,9 +103,14 @@ html(dir="ltr", lang="en")
                         h3 Archeology
                         p Hypered’s software revitalization service is dedicated to modernizing and regaining control of legacy applications. Faced with outdated systems or ones poorly managed by your teams, we step in to refresh your software infrastructure. Our approach includes a thorough assessment of existing systems, identification of improvement potentials, and implementation of modern solutions. These interventions aim to enhance the robustness and performance of your applications, ensuring their compliance with current and future standards.
 
-                .c-content.flow-all.u-flow-c-4.limit-42em
-                    h2(id="open-source") Open source
-                    p At Hypered, we firmly believe that open source has had a tremendous impact on the IT industry. By using open source tools and contributing to these projects, we have benefited from a culture of innovation and continuous learning. This approach has allowed us to stay at the forefront of modern development practices. By integrating open source solutions into our projects, we offer our clients robust, flexible, and sustainable tools. Discover our public projects on <a href="https://github.com/hypered">GitHub</a>.
+                .c-content.flow-all.u-flow-c-4
+                    .switcher.u-flow-c-4
+                        .c-content.flow
+                            h2(id="open-source") Open source
+                            p At Hypered, we firmly believe that open source has had a tremendous impact on the IT industry. By using open source tools and contributing to these projects, we have benefited from a culture of innovation and continuous learning. This approach has allowed us to stay at the forefront of modern development practices. By integrating open source solutions into our projects, we offer our clients robust, flexible, and sustainable tools. Discover our public projects on <a href="https://github.com/hypered">GitHub</a>.
+                        .c-content.flow
+                            h2(id="open-source") Numtide
+                            p We also work on ambitious projects with the <a href="https://numtide.com/contact/">Numtide</a> team, made up of experienced freelancers with a wide range of skills.
 
                 .c-content.flow-all.u-flow-c-4.limit-42em
                     h2(id="about") About
