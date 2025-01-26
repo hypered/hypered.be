@@ -117,7 +117,7 @@ html(dir="ltr", lang="fr")
 
                 .c-content.flow-all.u-flow-c-4.limit-42em
                     h2(id="about") A propos
-                    p Hypered est dirigée par Võ Minh Thu, spécialiste du développement informatique avec plus de 15 années d'expérience professionnelle.
+                    p Hypered est dirigée par Võ Minh Thu, spécialiste du développement informatique avec plus de 16 années d'expérience professionnelle.
                     p Avec un Master en informatique de l'Université de Namur, Thu a mené divers rôles techniques de haut niveau, allant de coach technique et lead technique à CTO, en se concentrant sur les pratiques modernes de développement et l'intégration de solutions open source. En tant que propriétaire d'Hypered, il offre des services de développement full-stack, des conseils en DevOps, et des solutions d'automatisation, avec une expertise approfondie en programmation fonctionnelle et technologies cloud. Hypered se dédie à l'excellence technique, proposant des formations spécialisées et l'automatisation des processus pour accroître votre efficacité.
 
                     a.c-button.c-button--primary(href='/contact.html')
