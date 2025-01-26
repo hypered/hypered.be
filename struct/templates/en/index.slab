@@ -148,5 +148,5 @@ html(dir="ltr", lang="en")
 
                 .flow.u-flow-c-4
                     img(src="/static/images/belgium-flag.svg", alt="The flag of Belgium", width="15px", height="13px")
-                    span &nbsp; &nbsp; &nbsp; © Hypered SRL, 2019-2024.&nbsp; &nbsp; &nbsp;
-                    span Get it done. Get it Hypered.
+                    span &nbsp; &nbsp; &nbsp; © Hypered SRL, 2019-2025.&nbsp; &nbsp; &nbsp;
+                    span Get it done. Get it hypered.
